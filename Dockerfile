@@ -12,4 +12,4 @@ RUN pnpm build
 
 EXPOSE 18789
 
-CMD ["pnpm", "gateway:start"]
+CMD ["node", "openclaw.mjs"]
